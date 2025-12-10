@@ -23,7 +23,7 @@ function handleRegister(event) {
                 mail,
                 pass
             }
-            window.location.replace('../login/logIn.html')
+            window.location.replace('../logIn/logIn.html')
         })
         .catch((error) => {
             var errorCode = error.code;
